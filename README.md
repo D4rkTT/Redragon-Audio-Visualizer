@@ -6,7 +6,7 @@ the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) i
 
 ## Download & Install
 
-## Install Driver (First Time Only)
+### Install Driver (First Time Only)
 1- Download [libusb-filter-win32.rar]()
 
 2- Extract `libusb-filter-win32.rar` and open `install-filter-win.exe`
@@ -17,7 +17,7 @@ the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) i
 4- Wait untill done then close it
 * You need to install driver again if you replugged the mouse
 
-## Download Redragon Audio Viusalizer
+### Download Redragon Audio Viusalizer
 1- Download [Latest Release](https://github.com/D4rkTT/Redragon-Audio-Visualizer/releases/download/1.0.0/Redragon.Audio.Visualizer.V1.0.0.rar)
 
 2- Open `RedragonVisualizer.exe` then choose color and click `Start`
@@ -25,7 +25,7 @@ the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) i
 Enjoy ❤
 
 ## Build
-If you want to build it,You will need 
+If you want to build it, You will need 
 
 1- Visual Studio 2017 or earler
 
