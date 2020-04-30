@@ -4,6 +4,12 @@
 Redragon Audio Visualizer that give redragon products real time audio visualizer
 the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) if you wanna build it
 
+## Supported Devices
+- Redragon M711 Cobra
+
+## Screenshot
+![](RED.gif)
+
 ## Download & Install
 
 ### Install Driver (First Time Only)
