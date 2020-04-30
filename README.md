@@ -1,4 +1,4 @@
-![](redragonAV.png)
+<p align="center"><img align="center" src="redragonAV.png"></p>
 # Redragon Audio Visualizer
 Redragon Audio Visualizer that give redragon products real time audio visualizer
 the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) if you wanna build it
