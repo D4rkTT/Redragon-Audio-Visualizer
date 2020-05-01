@@ -39,6 +39,9 @@ If you want to build it, You will need
 
 3- build it then put SDK dll into build folder
 
+## Credies
+- CScore
+
 ## Donate
 if you wanna to buy me a coffie or buy me a product to support it ☕❤
 - Bitcoin: ``1sgPvUDBT8ZpXwvJAjSsqWPiebjxTdjX9``
