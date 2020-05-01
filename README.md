@@ -13,7 +13,7 @@ the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) i
 ## Download & Install
 
 ### Install Driver (First Time Only)
-1- Download [libusb-filter-win32.rar]()
+1- Download [libusb-filter-win32.rar](libusb-filter-win32.rar)
 
 2- Extract `libusb-filter-win32.rar` and open `install-filter-win.exe`
 
