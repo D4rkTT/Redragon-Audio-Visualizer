@@ -35,7 +35,7 @@ If you want to build it, You will need
 
 1- Visual Studio 2017 or earler
 
-2- [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK)
+2- Download [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK)
 
 3- build it then put SDK dll into build folder
 
