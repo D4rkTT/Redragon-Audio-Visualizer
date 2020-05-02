@@ -39,6 +39,13 @@ If you want to build it, You will need
 
 3- build it then put SDK dll into build folder
 
+## Changelog
+- V1.2.0
+- - Updated to support V1.2.0 SDK
+- - Added Option to choose current mouse profile
+- - Added icon
+
+
 ## Credies
 - CScore For audio SDK
 
