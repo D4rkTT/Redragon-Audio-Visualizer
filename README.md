@@ -41,7 +41,7 @@ If you want to build it, You will need
 
 ## Changelog
 - V1.2.0
-- - Updated to support V1.2.0 SDK
+- - Updated to support SDK V1.2.0
 - - Added Option to choose current mouse profile
 - - Added icon
 
