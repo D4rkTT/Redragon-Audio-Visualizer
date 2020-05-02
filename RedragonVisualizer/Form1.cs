@@ -28,7 +28,7 @@ namespace RedragonVisualizer
         private Point mouseOffset;
 
         [DllImport("Redragon RGB SDK.dll")]
-        public static extern bool InitializeDevice();
+        public static extern bool InitializeDevice(int M_Profile);
         [DllImport("Redragon RGB SDK.dll")]
         public static extern bool RedragonSetColor(int R, int G, int B, int Level);
 
@@ -147,21 +147,29 @@ namespace RedragonVisualizer
         {
             if (Start_VisualizerBTN.Text == "Start")
             {
-                if (InitializeDevice())
+                if (M_Profile_CB.Text != "")
                 {
-                    Running = true;
-                    VisualizerSync.RunWorkerAsync();
-                    Start_VisualizerBTN.Text = "Stop";
+                    if (InitializeDevice(Convert.ToInt32(M_Profile_CB.Text)))
+                    {
+                        Running = true;
+                        VisualizerSync.RunWorkerAsync();
+                        Start_VisualizerBTN.Text = "Stop";
+                        M_Profile_CB.Enabled = false;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Device not connected");
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Device not connected");
+                else {
+                    MessageBox.Show("Please select your current mouse profile");
                 }
             }
             else {
                 Running = false;
                 VisualizerSync.CancelAsync();
                 Start_VisualizerBTN.Text = "Start";
+                M_Profile_CB.Enabled = true;
             }
         }
 

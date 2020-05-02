@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Start_VisualizerBTN = new System.Windows.Forms.Button();
             this.VisualizerSync = new System.ComponentModel.BackgroundWorker();
             this.ColorPicker = new System.Windows.Forms.ColorDialog();
@@ -43,6 +44,8 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.ColorBox = new System.Windows.Forms.PictureBox();
             this.MousePic = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.M_Profile_CB = new System.Windows.Forms.ComboBox();
             this.APPcontrolbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ColorBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MousePic)).BeginInit();
@@ -189,7 +192,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(267, 17);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Version: 1.0.0.0";
+            this.label5.Text = "Version: 1.2.0.0";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // linkLabel1
@@ -228,17 +231,45 @@
             this.MousePic.TabIndex = 1;
             this.MousePic.TabStop = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(25, 280);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(168, 21);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Current Mouse Profile: ";
+            // 
+            // M_Profile_CB
+            // 
+            this.M_Profile_CB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.M_Profile_CB.FormattingEnabled = true;
+            this.M_Profile_CB.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.M_Profile_CB.Location = new System.Drawing.Point(199, 283);
+            this.M_Profile_CB.Name = "M_Profile_CB";
+            this.M_Profile_CB.Size = new System.Drawing.Size(97, 21);
+            this.M_Profile_CB.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(7)))), ((int)(((byte)(12)))));
             this.ClientSize = new System.Drawing.Size(621, 451);
+            this.Controls.Add(this.M_Profile_CB);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.APPcontrolbar);
             this.Controls.Add(this.ColorBox);
@@ -246,6 +277,7 @@
             this.Controls.Add(this.Start_VisualizerBTN);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "  Redragon M711 Cobra Music Visualizer";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -274,6 +306,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox M_Profile_CB;
     }
 }
 
