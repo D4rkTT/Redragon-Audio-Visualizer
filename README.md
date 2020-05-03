@@ -24,7 +24,7 @@ the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) i
 * You need to install driver again if you replugged the mouse
 
 ### Download Redragon Audio Viusalizer
-1- Download [Latest Release](https://github.com/D4rkTT/Redragon-Audio-Visualizer/releases/download/1.0.0/Redragon.Audio.Visualizer.V1.0.0.rar)
+1- Download [Latest Release](https://github.com/D4rkTT/Redragon-Audio-Visualizer/releases/download/1.2.0/Redragon.Audio.Visualizer.V1.2.0.rar)
 
 2- Open `RedragonVisualizer.exe` then choose color and click `Start`
 
