@@ -20,7 +20,7 @@ the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) i
 ![](filter.png)
 
 4- Wait untill done then close it
-* You need to install driver again if you changed usb port of the mouse
+* You need to install driver again if you changed usb port of mouse
 
 ### Download Redragon Audio Viusalizer
 1- Download [Latest Release](https://github.com/D4rkTT/Redragon-Audio-Visualizer/releases/download/1.2.0/Redragon.Audio.Visualizer.V1.2.0.rar)
