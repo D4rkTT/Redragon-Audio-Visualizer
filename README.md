@@ -13,12 +13,11 @@ the program require [Redragon SDK](https://github.com/D4rkTT/Redragon-RGB-SDK) i
 ## Download & Install
 
 ### Install Driver (First Time Only)
-1- Download [libusb-filter-win32.rar](libusb-filter-win32.rar)
+1- Download & Install [LibUsbDotNet](https://sourceforge.net/projects/libusbdotnet/files/latest/download)
 
-2- Extract `libusb-filter-win32.rar` and open `install-filter-win.exe`
+2- Install Driver from window that appear after installation Like Screenshot
 
-3- Choose `Install a device filter` then choose like screenshot then `Install`
-![](LIBUSB-FILTER.png)
+![](filter.png)
 
 4- Wait untill done then close it
 * You need to install driver again if you replugged the mouse
